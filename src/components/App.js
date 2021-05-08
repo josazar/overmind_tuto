@@ -18,7 +18,7 @@ const App = () => {
         width: state.width,
         height: state.height
       }}></div>
-      <button onClick={()=> {actions.setWidth(50)}}>Change width</button>
+      <button onClick={()=> {actions.setWidth(50)}}>Change width to 50px</button>
     </>)
 }
 

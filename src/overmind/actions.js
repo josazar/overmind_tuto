@@ -3,3 +3,11 @@
 export const setWidth = (context, width) => {
   context.state.width = width
 }
+
+export const setHeight = (context, height) => {
+  context.state.height = height
+}
+
+export const editTitle = (context, title) => {
+  context.state.title = title
+}
